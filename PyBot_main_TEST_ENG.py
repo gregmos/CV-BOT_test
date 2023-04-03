@@ -30,9 +30,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Set your token values
-TELEGRAM_API_TOKEN = '6038331382:AAFRLHkYrGxkMEemekesDFY6H9JGBo0e8_Y'
-OPENAI_API_KEY = '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'
-stripe.api_key = "sk_test_51MrQjBKmCidwM5Yfm9kjvE6y1EPa7A7KYBODT8npfmSHLLjYzQaM4RIQU2NuZyhVPEhJlJlpozwwUkO71RMub9DJ00WAkfyKNx"
+TELEGRAM_API_TOKEN = ''
+OPENAI_API_KEY = ''
+stripe.api_key = ""
 
 
 openai.api_key = OPENAI_API_KEY

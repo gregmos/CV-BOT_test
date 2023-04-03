@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)  # Set the logging level
 def webhook(app):
     @app.route('/webhook', methods=['POST'])
     def inner_webhook():
-        webhook_secret = 'whsec_UQwGRr2v3Iv5L7SFfP2kjibRnRvHI2Ys'
+        webhook_secret = ''
 
         payload = request.data
         sig_header = request.headers.get('stripe-signature')

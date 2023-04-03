@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS users (
+    user_id INTEGER PRIMARY KEY,
+    first_name TEXT,
+    last_name TEXT,
+    phone_number TEXT,
+    email TEXT,
+    address TEXT,
+    description TEXT,
+    work_start_date TEXT,
+    work_end_date TEXT,
+    position TEXT,
+    company_name TEXT,
+    job_duties TEXT,
+    achievements TEXT,
+    education_start_date TEXT,
+    education_end_date TEXT,
+    university_name TEXT,
+    speciality TEXT,
+    language TEXT,
+    proficiency_level TEXT,
+    cv_balance INTEGER DEFAULT 0
+);
